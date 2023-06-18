@@ -80,11 +80,6 @@ body {
     text-decoration-color: var(--text-decoration-color);
 }
 
-.contact-info__sub-header {
-    color: var(--secondary-text-color);
-    margin-bottom: 30px;
-}
-
 .contact-info__block {
     display: flex;
     flex-direction: column;
@@ -96,9 +91,9 @@ body {
 }
 
 .contact-info__item {
+    display: flex;
     color: var(--secondary-text-color);
     text-decoration: none;
-    display: flex;
     justify-content: start;
 }
 
@@ -129,6 +124,11 @@ body {
     object-fit: cover;
     border: 3px solid;
     border-color: var(--text-decoration-color);
+}
+.container-header {
+  
+    display: flex;
+    
 }
 
 
