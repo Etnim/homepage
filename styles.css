@@ -60,7 +60,7 @@ body {
     }
 
     .contact-info__block:not(:last-child) {
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     .experiences {
@@ -124,8 +124,8 @@ body {
 
 .contact-info__avatar {
     border-radius: 60%;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border: 3px solid;
     border-color: var(--text-decoration-color);
@@ -134,7 +134,6 @@ body {
 
 
 .intro {
-    display: flex;
     justify-content: start;
 }
 
