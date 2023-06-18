@@ -22,6 +22,10 @@ body {
     max-width: 900px;
 }
 
+.header-alligment{
+    display: flex;
+}
+
 .fh {
     display: flex;
     flex-direction: row;
@@ -60,7 +64,7 @@ body {
     }
 
     .contact-info__block:not(:last-child) {
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     .experiences {
@@ -69,18 +73,15 @@ body {
 }
 
 
-
-
 .contact-info__header,
 .contact-info__sub-header {
-    text-align: center;
+    text-align: start;
 }
 
 .contact-info__header {
     color: var(--primary-text-color);
     margin-bottom: 15px;
     text-decoration-color: var(--text-decoration-color);
-    text-decoration-line: underline;
 }
 
 .contact-info__sub-header {
@@ -99,9 +100,9 @@ body {
 }
 
 .contact-info__item {
+    display: flex;
     color: var(--secondary-text-color);
     text-decoration: none;
-    display: flex;
     justify-content: start;
 }
 
@@ -126,9 +127,9 @@ body {
 }
 
 .contact-info__avatar {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    border-radius: 60%;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border: 3px solid;
     border-color: var(--text-decoration-color);
@@ -137,7 +138,6 @@ body {
 
 
 .intro {
-    display: flex;
     justify-content: start;
 }
 
@@ -153,6 +153,7 @@ body {
     vertical-align: text-bottom;
 }
 
+
 .intro__icon path {
     fill: var(--text-decoration-color);
 }
@@ -166,6 +167,12 @@ body {
     color: var(--secondary-text-color);
     text-align: center;
     margin-bottom: 15px;
+}
+
+.prog_skills_header{
+    color: var(--secondary-text-color);
+    text-align:start;
+    margin-bottom: 10px;
 }
 
 .skills__text {
